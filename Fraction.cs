@@ -110,5 +110,7 @@ namespace PowerShellFractions
             }
             return GCD(b, a % b);
         }
+
+        public override string ToString() => $"{Numerator}/{Denominator}";
     }
 }
